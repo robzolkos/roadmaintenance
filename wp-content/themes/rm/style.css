@@ -1,0 +1,59 @@
+/*
+ * Theme Name: Road Maintenance
+ * Theme URI: http://www.roadmaintenance.com.au
+ * Description: Custom theme created for Road Maintenance by Rob Zolkos.
+ * Version: 1.0
+ * Author: Rob Zolkos
+ * Author URI: http://www.robzolkos.com
+ * Tags: Template
+ * */
+body {background:#000 url('images/rm_bg_mono.jpg') no-repeat top center;color:#fff;font-size:10pt;font-family:arial, serif;}
+body.home {background:#000 url('images/rm_bg.jpg') no-repeat top center;}
+li {margin-left:15px;}
+a {text-decoration:none;color:#fff;}
+h1, h2, h3, h4, h5, h6 {color:#25aae1;}
+
+#navigation {background:url('images/blackbg.png'); height:25px;padding-bottom:10px;}
+#content {padding-top:150px;margin-bottom:50px;}
+
+.menu ul {position:relative;top:-130px;list-style:none;float:right;}
+.menu ul li {color:#25aae1;font-weight:bold;float:left;}
+.menu ul li a {color:white;font-weight:bold;text-decoration:none;}
+.menu ul li a:hover{border-bottom:2px solid #fff;}
+.menu ul li.current_page_item a{color:#25aae1;border-bottom:2px solid #25aae1;}
+
+#footer .menu ul {position:relative;top:0;float:left;margin-bottom:0px;}
+#footer .menu ul li {color:#25aae1;font-weight:bold;float:left;margin-left:0;margin-right:15px;}
+#footer {height:120px;}
+
+h1.logo {position:relative;top:45px;}
+
+.hero {height:300px;}
+.normalpage {margin-bottom:-250px;}
+
+p {text-align:justify;}
+p.main {font-size:15pt;font-weight:bold;line-height:20px;}
+p.secondary {line-height:15px;}
+
+.ft {border-top:1px solid #fff;padding-top:10px;font-size:8pt;}
+.ft a {color:#25aae1;text-decoration:none;}
+.ft .copyright {float:right;}
+.ft .copyright a{color:#25aae1;}
+.ft .footermenu {float:left;}
+
+.category {padding-left:0px;}
+.category img {border:7px solid white;width:230px;margin-bottom:25px;}
+.category img.right {float:right;}
+.contactform {background:url('http://roadmaintenance.com.au/images/bg_ten.png');padding:20px;}
+label {display:block;margin-top:10px;}
+input[type="text"], input[type="email"] {font-size:13pt;padding:5px;width:400px;}
+textarea {font-size:13pt;padding:5px;width:400px;height:200px;}
+input[type="submit"] {float:right;font-size:10pt;}
+span.error {color:#ed1c24;}
+
+img.acc1 {width:510px;}
+img.acc2 {width:510px;}
+
+.heromsg {font-size:45pt;line-height:50px;font-weight:bold;text-align:right;width:100%;}
+
+#content p img {border:5px solid #fff;margin-right:5px;}
